@@ -1,0 +1,6 @@
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\bin\Debug\Sandbox.exe.config
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\bin\Debug\Sandbox.exe
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\obj\Debug\Sandbox.exe
+c:\users\tiberiu.chirila\CSharp\Sandbox\Sandbox\obj\Debug\Sandbox.pdb

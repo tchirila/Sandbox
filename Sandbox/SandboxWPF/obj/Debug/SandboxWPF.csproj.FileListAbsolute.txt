@@ -1,0 +1,13 @@
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\bin\Debug\SandboxWPF.exe.config
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\bin\Debug\SandboxWPF.exe
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\bin\Debug\SandboxWPF.pdb
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.csprojResolveAssemblyReference.cache
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\MainWindow.baml
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\MainWindow.g.cs
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\App.g.cs
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF_MarkupCompile.cache
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.g.resources
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.Properties.Resources.resources
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.csproj.GenerateResource.Cache
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.exe
+C:\Users\tiberiu.chirila\CSharp\Sandbox\SandboxWPF\obj\Debug\SandboxWPF.pdb

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E106DE8F-17D3-400C-BED8-DEC2C4582D55}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sandbox</RootNamespace>
+    <AssemblyName>Sandbox</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesignPatterns\Command\CommandStart.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\CeilingFanOffCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\CeilingFanOnHighCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\CeilingFanOnLowCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\CeilingFanOnMediumCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\GarageDoorDownCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\LightOffCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\MacroCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\StereoOffCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\StereoOnWithCdCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\StereoOnWithDvdCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\StereoOnWithRadioCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Slots\CeilingFan.cs" />
+    <Compile Include="DesignPatterns\Command\Slots\GarageDoor.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\GarageDoorUpCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\ICommand.cs" />
+    <Compile Include="DesignPatterns\Command\Slots\Light.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\LightOnCommand.cs" />
+    <Compile Include="DesignPatterns\Command\Commands\NoCommand.cs" />
+    <Compile Include="DesignPatterns\Command\RemoteControl.cs" />
+    <Compile Include="DesignPatterns\Command\SimpleRemoteControl.cs" />
+    <Compile Include="DesignPatterns\Command\Slots\Stereo.cs" />
+    <Compile Include="DesignPatterns\Factory\AnimalShop.cs" />
+    <Compile Include="DesignPatterns\Factory\Animals\Canary.cs" />
+    <Compile Include="DesignPatterns\Factory\Animals\Parrot.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\CanaryBehaviourFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\CatBehaviourFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\DogBehaviourFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\Eat.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\EatAnything.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\EatCrackers.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\EatCrumbs.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\EatMice.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\ParrotBehaviourFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\BirdShopFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\Animals\Cat.cs" />
+    <Compile Include="DesignPatterns\Factory\Animals\Dog.cs" />
+    <Compile Include="DesignPatterns\Factory\Animal.cs" />
+    <Compile Include="DesignPatterns\Factory\FactoryStart.cs" />
+    <Compile Include="DesignPatterns\Factory\Behaviours\IBehaviourFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\MammalShopFactory.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="PolymorphismOverriding.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sandbox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
